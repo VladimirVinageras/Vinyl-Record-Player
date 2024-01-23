@@ -11,6 +11,10 @@
 		E72FD6CA2B5B4168006B72B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72FD6C92B5B4168006B72B3 /* ContentView.swift */; };
 		E72FD6CC2B5B4169006B72B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72FD6CB2B5B4169006B72B3 /* Assets.xcassets */; };
 		E72FD6CF2B5B4169006B72B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72FD6CE2B5B4169006B72B3 /* Preview Assets.xcassets */; };
+		E72FD6D62B5B4270006B72B3 /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72FD6D52B5B4270006B72B3 /* RecordPlayerBox.swift */; };
+		E72FD6D82B5B4DDC006B72B3 /* RecordButtonArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72FD6D72B5B4DDC006B72B3 /* RecordButtonArmView.swift */; };
+		E788553B2B601C3200B244BC /* audioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E788553A2B601C3200B244BC /* audioPlayer.swift */; };
+		E788553D2B606C5400B244BC /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E788553C2B606C5400B244BC /* music.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E72FD6C92B5B4168006B72B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E72FD6CB2B5B4169006B72B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E72FD6CE2B5B4169006B72B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E72FD6D52B5B4270006B72B3 /* RecordPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBox.swift; sourceTree = "<group>"; };
+		E72FD6D72B5B4DDC006B72B3 /* RecordButtonArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButtonArmView.swift; sourceTree = "<group>"; };
+		E788553A2B601C3200B244BC /* audioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioPlayer.swift; sourceTree = "<group>"; };
+		E788553C2B606C5400B244BC /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				E72FD6C72B5B4168006B72B3 /* Vinyl_Record_PlayerApp.swift */,
 				E72FD6C92B5B4168006B72B3 /* ContentView.swift */,
+				E72FD6D52B5B4270006B72B3 /* RecordPlayerBox.swift */,
+				E72FD6D72B5B4DDC006B72B3 /* RecordButtonArmView.swift */,
 				E72FD6CB2B5B4169006B72B3 /* Assets.xcassets */,
 				E72FD6CD2B5B4169006B72B3 /* Preview Content */,
+				E788553A2B601C3200B244BC /* audioPlayer.swift */,
+				E788553C2B606C5400B244BC /* music.m4a */,
 			);
 			path = "Vinyl Record Player";
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				E72FD6CF2B5B4169006B72B3 /* Preview Assets.xcassets in Resources */,
 				E72FD6CC2B5B4169006B72B3 /* Assets.xcassets in Resources */,
+				E788553D2B606C5400B244BC /* music.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +152,9 @@
 			files = (
 				E72FD6CA2B5B4168006B72B3 /* ContentView.swift in Sources */,
 				E72FD6C82B5B4168006B72B3 /* Vinyl_Record_PlayerApp.swift in Sources */,
+				E788553B2B601C3200B244BC /* audioPlayer.swift in Sources */,
+				E72FD6D82B5B4DDC006B72B3 /* RecordButtonArmView.swift in Sources */,
+				E72FD6D62B5B4270006B72B3 /* RecordPlayerBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
